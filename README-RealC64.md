@@ -47,6 +47,14 @@ Unfortunately, this is a hen-and-egg problem. You need **someone** to get you th
 2. Using warpcopy06, write `QLink-Habitat.d64` to side A of your first real C64 disk
 3. Using warpcopy06, write `Habitat-A.d64` to side A of your second real C64 disk
 
+#### using Easy1541 toolkit on Amiga
+
+1. Build a simple cable to transfer D64 to real 1541 disks. You can find build instruction here: http://sta.c64.org/easy1541.html
+2. Download Easy1541 toolchain from here: http://aminet.net/package/misc/emu/Easy1541.
+3. Depack Easy1541 toolchain to your Amiga harddisk.
+4. Copy QLink-Habitat.d64, Habitat-A.d64 and Habitat-B.d64 to your AMIGA harddisk.
+5. Start CLI and write disks with 'IECWRITED64 nameofdisk'.
+
 #### using any other method
 
 (to be written by the community, when successfully tested)
